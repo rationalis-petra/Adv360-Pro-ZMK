@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4        &kp N5  &tog 1                                                                  &mo 3      &kp N6  &kp N7          &kp N8     &kp N9    &kp N0         &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp F     &kp P         &kp B   &none                                                                   &none      &kp J   &kp L           &kp U      &kp Y     &kp SEMICOLON  &kp TAB
-&kp ESC    &kp A      &kp R     &kp S     &kp T         &kp G   &none     &kp HOME  &kp END               &kp PAGE_UP    &kp PAGE_DOWN  &none      &kp M   &kp N           &kp E      &kp I     &kp O          &kp ESCAPE
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp D         &kp V                       &kp LEFT_CONTROL      &kp RIGHT_ALT                            &kp K   &kp H           &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp UP_ARROW          &kp BSPC  &mo 2     &kp LGUI              &kp RCTRL      &kp ENTER      &kp SPACE          &kp DOWN_ARROW  &kp RIGHT  &kp LBKT  &kp RBKT       &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4        &kp N5  &tog 1                                                                   &mo 3      &kp N6  &kp N7          &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp F     &kp P         &kp B   &none                                                                    &none      &kp J   &kp L           &kp U      &kp Y     &kp SEMICOLON  &kp TAB
+&kp ESC    &kp A      &kp R     &kp S     &kp T         &kp G   &none     &kp DELETE  &kp K_LOCK            &kp PRINTSCREEN  &kp INSERT  &none      &kp M   &kp N           &kp E      &kp I     &kp O          &kp ESCAPE
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp D         &kp V                         &kp LEFT_CONTROL      &kp RCTRL                               &kp K   &kp H           &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp UP_ARROW          &kp BSPC  &mo 2       &kp LGUI              &kp RIGHT_ALT    &kp ENTER   &kp SPACE          &kp DOWN_ARROW  &kp RIGHT  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 
@@ -52,7 +52,7 @@
 &kp F1  &kp F2        &kp F3            &kp F4                &kp F5            &kp F6  &tog 1                                      &mo 3   &kp F7        &kp F8             &kp F9                 &kp F10          &kp F11       &kp F12
 &trans  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3          &kp NUMBER_4      &kp N5  &none                                       &none   &kp NUMBER_6  &kp N7             &kp N8                 &kp N9           &kp N0        &trans
 &trans  &kp GRAVE     &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans        &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp SEMI      &trans
-&trans  &kp PLUS      &kp SINGLE_QUOTE  &kp EQUAL             &kp PIPE          &trans                  &trans      &trans                  &trans        &kp AMPS           &kp MINUS              &kp BACKSLASH    &kp ASTERISK  &trans
+&trans  &kp PLUS      &kp SINGLE_QUOTE  &kp MINUS             &kp PIPE          &trans                  &trans      &trans                  &trans        &kp AMPS           &kp EQUAL              &kp BACKSLASH    &kp ASTERISK  &trans
 &trans  &trans        &trans            &trans                &trans                    &trans  &trans  &trans      &trans  &trans  &trans                &trans             &trans                 &trans           &trans        &trans
             >;
         };
